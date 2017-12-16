@@ -1,0 +1,10 @@
+doctype html
+
+head 
+    title = "Login_page"
+
+body 
+    if(user)
+    h1 hi #{user.name}
+    else
+    a(href = "/sign_up") Sign up
